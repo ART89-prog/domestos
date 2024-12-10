@@ -1,0 +1,133 @@
+@media print, (max-width: 1023px) {
+
+    .header_logo-right {
+        width: 328px;
+        height: 72px;
+    }
+    .header_logo-right img {
+        width: 100%;
+        height: 100%;
+    }
+    .marketing_text {
+        font-size: 22px;
+    }
+    .test_text {
+        font-size: 38px;
+    }
+    .test_link a {
+        width: 543px;
+        height: 92px;
+        border-radius: 46px;
+        font-size: 50px;
+    }
+    .test {
+        padding: 50px 0 70px;
+    }
+    .info-block {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .consultant_photo {
+        width: 550px;
+        height: 550px;
+    }
+    .consultant {
+        flex-direction: column;
+        padding: 70px 50px;
+        gap: 60px;
+    }
+    .consultant_text {
+        text-align: center;
+    }
+    .consultant_name {
+        text-align: center;
+        margin-top: 12px;
+    }
+    .consultant .link {
+        margin: 0 auto;
+        width: 649px;
+        height: 92px;
+        font-size: 45px;
+        border-radius: 46px;
+    }
+    .consultant:before {
+        display: none;
+    }
+    .describe h2 {
+        font-size: 50px;
+    }
+    .describe p {
+        font-size: 38px;
+    }
+    .describe img.fl {
+        margin: 0 auto 50px;
+        float: none;
+        display: block;
+        width: 530px;
+        height: 530px;
+    }
+    .describe img.fr {
+        margin: 0 auto 50px;
+        float: none;
+        display: block;
+        width: 530px;
+        height: 530px;
+    }
+    .describe ul li,
+    .describe ol li {
+        font-size: 38px;
+    }
+    .describe ul.ml50 {
+        margin-left: 40px;
+        margin-bottom: 32px;
+    }
+    .survey_img {
+        display: none;
+    }
+    .survey_img-mob {
+        display: block;
+        margin: 0 auto;
+    }
+    .survey_info {
+        margin-left: 0;
+        padding: 0;
+    }
+    .survey {
+        padding: 60px 30px 60px;
+    }
+    .survey_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .survey_title {
+        font-size: 60px;
+        text-align: center;
+        text-transform: none;
+    }
+    .survey .test_link a {
+        font-size: 50px;
+    }
+    .footnote_text {
+        font-size: 58px;
+    }
+    .footer_text {
+        font-size: 28px;
+    }
+    footer {
+        padding-bottom: 80px;
+    }
+    .first-section_title span {
+        font-size: 70px;
+    }
+    .consultant_box {
+        margin-top: 0px;
+    }
+
+
+
+
+
+
+}

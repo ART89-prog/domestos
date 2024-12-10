@@ -1,0 +1,179 @@
+@media print, (max-width: 767px) {
+
+    .header_logo-left {
+        width: 85px;
+        height: 19px;
+    }
+    .header_logo-left img {
+        width: 100%;
+        height: 100%;
+    }
+    .header_logo-right {
+        width: 143px;
+        height: 31px;
+    }
+    .header_wrap {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .first-section_title {
+        font-size: 35px;
+        line-height: 0.941;
+    }
+    .first-section_title span {
+        font-size: 35px;
+        line-height: 0.941;
+    }
+    .first-section {
+        background-image: url(../images/first-section-bg-mob.svg);
+        padding-top: 30px;
+        background-size: cover;
+        background-position: bottom center;
+    }
+    .first-section_wrap {
+        padding-bottom: 320px;
+    }
+    .marketing_text {
+        font-size: 10px;
+    }
+    .test_text {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .marketing {
+        padding: 10px 0;
+    }
+    .test {
+        padding: 20px 0 30px;
+    }
+    .test_link a {
+        width: 236px;
+        height: 40px;
+        font-size: 22px;
+    }
+    .info-block {
+        padding-top: 24px;
+        padding-bottom: 15px;
+    }
+    .consultant_photo {
+        width: 240px;
+        height: 240px;
+    }
+    .consultant {
+        padding: 30px 40px;
+        gap:20px;
+    }
+    .consultant_text span {
+        font-size: 21px;
+        letter-spacing: 2px;
+        margin-bottom: 4px;
+    }
+    .consultant_text {
+        font-size: 17px;
+        line-height: 1;
+    }      
+    .consultant_text {
+        margin-top: 0;
+    }
+    .consultant .link {
+        width: 390px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .consultant_name {
+        font-size: 21px;
+        margin-top: 13px;
+        margin-bottom: 25px;
+        font-weight: 600;
+        line-height: 1;
+    }
+    .describe h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .describe {
+        padding: 15px 20px;
+        border-radius: 9px;
+    }
+    .describe p {
+        font-size: 16px;
+        margin-bottom: 15px;        
+    }
+    .describe img.fl {
+        margin: 0 auto 25px;
+        width: 230px;
+        height: 230px;
+    }
+    .describe img.fr {
+        margin: 0 auto 25px;
+        width: 230px;
+        height: 230px;
+    }
+    .describe ul li, 
+    .describe ol li {
+        font-size: 16px;
+    }
+    .describe ul {
+        margin-bottom: 20px;
+    }
+    .describe ul.ml50 {
+        margin-bottom: 20px;
+    }
+    .survey_img-mob {
+        width: 257px;
+        height: 210px;
+    }
+    .survey_img-mob img {
+        width: 100%;
+        height: 100%;
+    }
+    .survey {
+        padding: 25px 20px 35px;
+    }
+    .survey_wrap {
+        gap: 20px;
+    }
+    .survey_title {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .survey .test_link a {
+        font-size: 22px;
+    }
+    .describe ol {
+        margin-bottom: 20px;
+    }
+    .footnote_text {
+        font-size: 30px;
+    }
+    .footer_text {
+        font-size: 12px;
+    }
+    footer {
+        padding-top: 5px;
+        padding-bottom: 40px;
+    }
+    .survey .cont {
+        padding: 0 20px;
+    }
+    .info-block {
+        background: url(../images/background_mobile.png);
+    }
+    .survey,
+    .consultant {
+        border-radius: 9px;
+    }
+    .consultant_text br {
+        display: block;
+    }
+    .consultant_name br {
+        display: block;
+    }
+
+
+
+
+
+  
+}
+

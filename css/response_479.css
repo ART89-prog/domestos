@@ -1,0 +1,22 @@
+@media (max-width: 479px) {
+
+  
+    .first-section_wrap {
+        padding-bottom: 200px;
+    }
+    .survey .test_link a {
+        width: 100%;
+    }
+    .survey_info {
+        width: 100%;
+    }
+    .consultant_box {
+        width: 100%;
+    }
+    .consultant .link {
+        width: 100%;
+    }
+
+
+
+}
