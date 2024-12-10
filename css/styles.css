@@ -108,6 +108,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'NotoSans';
+    src: local('NotoSans-ExtraCondensedBoldItalic'),
+        url('../fonts/NotoSans-ExtraCondensedBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
 
 
 
@@ -320,20 +329,158 @@ button {
 
 
 header {
-    background: #fff;    
+    background: url(../images/dark3.png);   
+    background-position: center;
+    padding-bottom: 114px;
+    padding-top: 38px;
 }
+.header_logo-right {
+   margin-left: -63px;
+   margin-top: -48px;
+} 
 header .cont {
     max-width: 1040px;
 }
+.header_top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
 .header_wrap {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 17px;
-    padding-bottom: 11px;
+    position: relative;
+    z-index: 1;
+}
+.header_title {
+    color: rgb(255, 255, 255);
+    font-family: 'NotoSans';
+    font-size: 96px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    position: relative;
+    text-shadow: 0 0 20px #fff;
+    margin-left: 10px;
+}
+.header_desc {
+    color: rgb(255, 255, 255);
+    font-family: 'NotoSans';
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 0.93;
+    margin-bottom: 105px;
+    text-shadow: 0 0 20px #fff;
+    margin-top: 5px;
+    letter-spacing: -0.52px;
+}
+.header_img {
+    position: absolute;
+    width: 1136px;
+    height: 669px;
+    right: -205px;
+    bottom: -87px;
+    z-index: -1;
+}
+.header_info {
+    max-width: 440px;
+}
+.header_text {
+    color: rgb(255, 255, 255);
+    font-family: "Roboto Condensed";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 10px;
+}
+.header_text:before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 3px;
+    left: 4px;
+    top: 0;
+    background: #fff;
+}
+.header_reclama {
+    color: rgb(141, 199, 254);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: "Roboto Condensed";
+    margin-left: 4px;
+}
+.header_box {
+    margin-bottom: 45px;
+    margin-top: 54px;
+}
+.header_box-title {
+    color: rgb(141, 199, 254);
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.32px;
+}
+.header_box-text {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    margin-top: -4px;
+    letter-spacing: 0.6px;
+}
+.header_block {
+    padding: 39px 50px 45px; 
+    border-radius: 8px;
+    background: rgb(22, 38, 76);
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 52px;
+    font-weight: 500;
 }
 
 
+
+
+.first_section {
+    padding: 45px 0 60px;
+    background: #fff;
+}
+.first_section .cont {
+    max-width: 1040px;
+}
+.first_section h2 {
+    color: rgb(25, 63, 161);
+    font-family: "Futura";
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin-bottom: 45px;
+    line-height: 1.1;
+}
+.first_section p {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.first_section img.fr {
+    float: right;
+    margin-left: 60px;
+    width: 471px;
+    height: 492px;
+}
+.first_section img.fl {
+    float: left;
+    margin-right: 60px;
+    width: 471px;
+    height: 492px;
+}
+  
 
 
 .test {
@@ -344,10 +491,10 @@ header .cont {
 .test_text {
     color: rgb(141, 199, 254);
     font-size: 42px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.1;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 .test_link {
     display: flex;
@@ -363,7 +510,7 @@ header .cont {
     align-items: center;
     justify-content: center;
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 1.8px;
     text-align: left;
     text-transform: uppercase;
@@ -397,7 +544,7 @@ header .cont {
     color: rgb(25, 63, 161);
     font-family: "Futura";
     font-size: 38px;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 0px;
     margin-bottom: 20px;
 }
@@ -412,6 +559,10 @@ header .cont {
     font-weight: 400;
     line-height: 31.2px;
     margin-bottom: 35px; 
+}
+.describe ul li::marker {
+	color: rgb(242, 30, 140);
+	font-size: 26px;
 }
 .describe h3 {
     color: rgb(25, 63, 161);
