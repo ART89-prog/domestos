@@ -3,21 +3,11 @@
     .describe {
         padding: 40px 50px;
     }
-    .describe p.mt20 {
-        margin-top: 0px;
-    }
     .describe img.fr {
         margin-left: 30px;
     }
     .describe img.fl {
         margin-right: 30px;
-    }
-    .describe ul.ml50 {
-        margin-left: 500px;
-        margin-bottom: 24px;
-    }
-    .survey_info {
-        margin-left: calc(100% - 510px);
     }
 
 

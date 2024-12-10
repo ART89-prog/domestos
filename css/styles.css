@@ -484,7 +484,7 @@ header .cont {
 
 
 .test {
-    padding: 72px 0 77px;
+    padding: 82px 0 80px;
     background: url(../images/dark2.png );
     background-position: center;
 }
@@ -518,13 +518,13 @@ header .cont {
     transition: all .3s;
 }
 .test_link a:hover {
-    background-color:  #e84224;
+    background-color:  rgb(216, 1, 112);
 }
 
 
 .info-block {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 90px;
     background: url(../images/background.png);
     background-repeat: repeat;
     background-position: center center;
@@ -546,13 +546,14 @@ header .cont {
     font-size: 38px;
     font-weight: 700;
     letter-spacing: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+    margin-left: 48px;
 }
 .describe p {
     font-size: 26px;
     font-weight: 400;
     line-height: 1.2;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .describe ul li {
     font-size: 26px;
@@ -568,30 +569,33 @@ header .cont {
     color: rgb(25, 63, 161);
     font-size: 26px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-transform: uppercase;
 }
 .describe p a {
     text-decoration: none;
     color: rgb(242, 30, 140);
+    font-weight: 700;
 }
-.mb0 {
+p.mb0 {
     margin-bottom: 0;
 }
 .describe img.fr {
     float: right;
-    margin-left: 66px;
-    width: 430px;
-    height: 430px;
+    margin-left: 60px;
+    width: 473px;
+    height: 473px;
+    margin-bottom: 30px;
 }
 .describe img.fl {
     float: left;
-    margin-right: 66px;
-    width: 430px;
-    height: 430px;
+    margin-right: 60px;
+    width: 473px;
+    height: 483px;
+    margin-bottom: 30px;
 }
 .describe_wrap {
-    padding: 25px 45px;
+    padding: 25px 45px 40px;
     border-radius: 8px;
     background: #fff;
 }
@@ -604,8 +608,8 @@ header .cont {
 
 footer {
     background: #fff;
-    padding-top: 37px;
-    padding-bottom: 110px;
+    padding-top: 40px;
+    padding-bottom: 80px;
     position: relative;
     z-index: 55;
 }
