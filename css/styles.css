@@ -331,6 +331,7 @@ button {
 header {
     background: url(../images/dark3.png);   
     background-position: center;
+    background-size: cover;
     padding-bottom: 114px;
     padding-top: 38px;
 }
@@ -394,6 +395,7 @@ header .cont {
     text-transform: uppercase;
     position: relative;
     padding-left: 10px;
+    letter-spacing: 0.68px;
 }
 .header_text:before {
     position: absolute;
@@ -441,6 +443,9 @@ header .cont {
     line-height: 1.2;
     margin-bottom: 52px;
     font-weight: 500;
+}
+.header_img-mob {
+    display: none;
 }
 
 
