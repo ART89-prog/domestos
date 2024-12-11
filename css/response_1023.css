@@ -155,7 +155,13 @@
   }
   .test {
     padding: 97px 0 107px;
-}
+  }
+  .footer_text {
+    font-size: 28px;
+  }
+  footer {
+    padding-top: 55px;
+  }
 
 
 
