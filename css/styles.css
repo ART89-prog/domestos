@@ -18,7 +18,7 @@
 
 @font-face {
     font-family: 'Futura';
-    src: url('F../fonts/uturaPT-Book.eot');
+    src: url('../fonts/uturaPT-Book.eot');
     src: local('Futura PT Book'), local('FuturaPT-Book'),
         url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
         url('../fonts/FuturaPT-Book.woff') format('woff'),

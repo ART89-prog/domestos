@@ -69,7 +69,97 @@
     font-size: 52px;
     line-height: 0.93;
     letter-spacing: 0;
+    margin-bottom: 45px;
   }
+  .header_block {
+    padding: 0;
+    border-radius: 0px;
+    background: none;
+    font-size: 38px;
+    margin-bottom: 60px;
+  }
+  .test_text {
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 60px;
+  }
+  .test_link a {
+    width: 543px;
+    height: 92px;
+    font-size: 50px;
+  }
+  header {
+    padding-bottom: 80px;
+  }
+  .first_section h2 {
+    font-size: 50px;
+    line-height: 1;
+  }
+  .describe img.fr {
+    margin: 0 auto 60px;
+    float: none;
+    display: block;
+    width: 531px;
+    height: 531px;
+  }
+  .describe img.fl {
+    margin: 0 auto 60px;
+    float: none;
+    display: block;
+    width: 531px;
+    height: 531px;
+  }
+  .first_section img.fl {
+    margin: 0 auto 60px;
+    float: none;
+    display: block;
+    width: 562px;
+    height: 592px;
+  }
+  .first_section h2 {
+    margin-bottom: 50px;
+  }
+  .first_section p {
+    font-size: 38px;
+  }
+  .first_section p {
+    margin-bottom: 45px;
+  }
+  .describe h2 {
+    font-size: 50px;
+    margin-left: 0;
+  }
+  .info-block {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+  p.mb0 {
+    margin-bottom: 0;
+  }
+  .describe p {
+    font-size: 38px;
+  }
+  .describe p a {
+    font-size: 38px;
+  }
+  .describe_wrap {
+    padding: 29px 35px 40px;
+  }
+  .describe h3 {
+    font-size: 42px;
+    margin-bottom: 25px;
+  }
+  .describe ul li {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+  .test {
+    padding: 97px 0 107px;
+}
+
+
+
+
 
 
 
