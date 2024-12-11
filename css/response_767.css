@@ -14,14 +14,14 @@
         padding-top: 23px;
     }
     .header_title {
-        font-size: 64px;
+        font-size: 94px;
         margin-left: 33px;
     }
     .header_desc {
-        font-size: 35px;
+        font-size: 50px;
         margin-top: 6px;
         margin-left: 24px;
-        max-width: 305px;
+        max-width: 560px;
         margin-bottom: 0;
     }
     .header_img-mob {
@@ -29,15 +29,17 @@
         height: 400px;
     }
     .header_text {
-        font-size: 6px;
+        font-size: 12px;
         margin-bottom: 20px;
     }
     .header_reclama {
-        font-size: 9px;
+        font-size: 16px;
     }
     .header_img-mob {
-        width: 320px;
-        height: 320px;
+        width: 420px;
+        height: 420px;
+        margin-right: auto;
+        margin-left: 0;
     }
     .header_box-title {
         font-size: 26px;
@@ -74,8 +76,12 @@
         width: 300px;
         height: 316px;
     }
+    .describe + .describe {
+        margin-top: 23px;
+    }
     .describe h2 {
         font-size: 22px;
+        margin-bottom: 15px;
     }
     .describe p {
         font-size: 16px;
@@ -98,6 +104,7 @@
     }
     .describe h3 {
         font-size: 18px;
+        margin-bottom: 10px;
     }
     .describe ul li {
         font-size: 16px;
