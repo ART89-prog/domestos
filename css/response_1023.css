@@ -162,7 +162,9 @@
   footer {
     padding-top: 55px;
   }
-
+  .test_text br:nth-child(1) {
+    display: block;
+  } 
 
 
 

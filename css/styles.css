@@ -525,6 +525,11 @@ header .cont {
 .test_link a:hover {
     background-color:  rgb(216, 1, 112);
 }
+.test_text br:nth-child(1) {
+    display: none;
+  }
+
+
 
 
 .info-block {
