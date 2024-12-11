@@ -1,8 +1,117 @@
 @media print, (max-width: 767px) {
 
-   
-
-
+    .header_logo-right {
+        width: 139px;
+        height: 113px;
+        margin-top: -23px;
+        margin-left: -23px;
+    }
+    .header_logo-left {
+        width: 102px;
+        height: 23px;
+    }
+    header {
+        padding-top: 23px;
+    }
+    .header_title {
+        font-size: 64px;
+        margin-left: 33px;
+    }
+    .header_desc {
+        font-size: 35px;
+        margin-top: 6px;
+        margin-left: 24px;
+        max-width: 305px;
+        margin-bottom: 0;
+    }
+    .header_img-mob {
+        width: 400px;
+        height: 400px;
+    }
+    .header_text {
+        font-size: 6px;
+        margin-bottom: 20px;
+    }
+    .header_reclama {
+        font-size: 9px;
+    }
+    .header_img-mob {
+        width: 320px;
+        height: 320px;
+    }
+    .header_box-title {
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+    .header_box {
+        margin-bottom: 22px;
+        margin-top: 43px;
+    }
+    .header_box-text {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .header_block {
+        font-size: 16px;
+    }
+    .test_text {
+        font-size: 26px;
+        margin-bottom: 40px;
+    }
+    .test_link a {
+        width: 236px;
+        height: 40px;
+        font-size: 22px;
+    }
+    .first_section h2 {
+        font-size: 22px;
+    }
+    .first_section p {
+        font-size: 16px;
+    }
+    .first_section img.fl {
+        margin: 0 auto 40px;
+        width: 300px;
+        height: 316px;
+    }
+    .describe h2 {
+        font-size: 22px;
+    }
+    .describe p {
+        font-size: 16px;
+    }
+    .describe p a {
+        font-size: 16px;
+    }
+    .describe_wrap {
+        padding: 16px 20px;
+    }
+    .describe img.fr {
+        margin: 0 auto 40px;
+        width: 300px;
+        height: 300px;
+    }
+    .describe img.fl {
+        margin: 0 auto 40px;
+        width: 300px;
+        height: 300px;
+    }
+    .describe h3 {
+        font-size: 18px;
+    }
+    .describe ul li {
+        font-size: 16px;
+    }
+    .describe ul {
+        padding-left: 20px;
+    }
+    .footer_text {
+        font-size: 12px;
+    }
+    footer {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
 
   
 }
