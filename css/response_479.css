@@ -22,6 +22,25 @@
     }
     .header_reclama {
         font-size: 9px;
+        margin-left: 0;
+    }
+    .header_box {
+        padding: 0 10px;
+    }
+    .header_text {
+        padding-left: 5px;
+    }
+    .header_text:before {
+        left: 0;
+    }
+    .header_block {
+        padding: 0 10px;
+    }
+    p.mb0 {
+        margin-bottom: 0;
+    }
+    .header_wrap {
+        padding: 0 10px;
     }
 
 

@@ -12,6 +12,7 @@
     }
     header {
         padding-top: 23px;
+        padding-bottom: 40px;
     }
     .header_title {
         font-size: 94px;
@@ -58,7 +59,7 @@
     }
     .test_text {
         font-size: 26px;
-        margin-bottom: 40px;
+        margin-bottom: 25px;
     }
     .test_link a {
         width: 236px;
@@ -67,12 +68,17 @@
     }
     .first_section h2 {
         font-size: 22px;
+        margin-bottom: 25px;
     }
     .first_section p {
         font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .first_section {
+        padding: 25px 0 30px;
     }
     .first_section img.fl {
-        margin: 0 auto 40px;
+        margin: 0 auto 30px;
         width: 300px;
         height: 316px;
     }
@@ -104,10 +110,11 @@
     }
     .describe h3 {
         font-size: 18px;
-        margin-bottom: 10px;
+        margin-bottom: 18px;
     }
     .describe ul li {
         font-size: 16px;
+        margin-bottom: 25px;
     }
     .describe ul {
         padding-left: 20px;
@@ -118,6 +125,16 @@
     footer {
         padding-top: 20px;
         padding-bottom: 30px;
+    }
+    .header_block {
+        margin-bottom: 27px;
+    }
+    .info-block {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .test {
+        padding: 45px 0 50px;
     }
 
   
