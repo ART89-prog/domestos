@@ -42,6 +42,14 @@
     .header_wrap {
         padding: 0 10px;
     }
+    .describe img.fl {
+        width: 232px;
+        height: auto;
+    }
+    .describe img.fr {
+        width: 232px;
+        height: auto;
+    }
 
 
 
