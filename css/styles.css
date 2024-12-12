@@ -360,7 +360,7 @@ header .cont {
     font-weight: 400;
     letter-spacing: -1px;
     position: relative;
-    text-shadow: 0 0 20px #fff;
+    text-shadow: 0 0 70px #4a48f9;
     margin-left: 10px;
 }
 .header_desc {
@@ -370,7 +370,7 @@ header .cont {
     font-weight: 400;
     line-height: 0.93;
     margin-bottom: 105px;
-    text-shadow: 0 0 20px #fff;
+    text-shadow: 0 0 70px #4a48f9;
     margin-top: 5px;
     letter-spacing: -0.52px;
 }
@@ -583,6 +583,11 @@ header .cont {
     text-transform: uppercase;
 }
 .describe p a {
+    text-decoration: none;
+    color: rgb(242, 30, 140);
+    font-weight: 700;
+}
+.describe ul li a {
     text-decoration: none;
     color: rgb(242, 30, 140);
     font-weight: 700;

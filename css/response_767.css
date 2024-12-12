@@ -95,6 +95,9 @@
     .describe p a {
         font-size: 16px;
     }
+    .describe li a {
+        font-size: 16px;
+    }
     .describe_wrap {
         padding: 16px 20px;
     }
